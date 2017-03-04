@@ -11,7 +11,6 @@
 		E24173EF1E6A69F7007ED098 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24173EE1E6A69F7007ED098 /* ViewController.swift */; };
 		E24173F21E6A69F7007ED098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24173F01E6A69F7007ED098 /* Main.storyboard */; };
 		E24173F41E6A69F7007ED098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24173F31E6A69F7007ED098 /* Assets.xcassets */; };
-		E24173F71E6A69F7007ED098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24173F51E6A69F7007ED098 /* LaunchScreen.storyboard */; };
 		E24174021E6A69F8007ED098 /* DouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24174011E6A69F8007ED098 /* DouYuTests.swift */; };
 		E241740D1E6A69F8007ED098 /* DouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E241740C1E6A69F8007ED098 /* DouYuUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		E24173EE1E6A69F7007ED098 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E24173F11E6A69F7007ED098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24173F31E6A69F7007ED098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E24173F61E6A69F7007ED098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24173F81E6A69F7007ED098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24173FD1E6A69F8007ED098 /* DouYuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24174011E6A69F8007ED098 /* DouYuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				E24173EE1E6A69F7007ED098 /* ViewController.swift */,
 				E24173F01E6A69F7007ED098 /* Main.storyboard */,
 				E24173F31E6A69F7007ED098 /* Assets.xcassets */,
-				E24173F51E6A69F7007ED098 /* LaunchScreen.storyboard */,
 				E24173F81E6A69F7007ED098 /* Info.plist */,
 			);
 			path = DouYu;
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24173F71E6A69F7007ED098 /* LaunchScreen.storyboard in Resources */,
 				E24173F41E6A69F7007ED098 /* Assets.xcassets in Resources */,
 				E24173F21E6A69F7007ED098 /* Main.storyboard in Resources */,
 			);
@@ -302,14 +298,6 @@
 				E24173F11E6A69F7007ED098 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E24173F51E6A69F7007ED098 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E24173F61E6A69F7007ED098 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Felix.DouYu;
@@ -422,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DouYu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Felix.DouYu;
@@ -503,6 +493,7 @@
 				E24174131E6A69F8007ED098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24174141E6A69F8007ED098 /* Build configuration list for PBXNativeTarget "DouYuTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +502,7 @@
 				E24174161E6A69F8007ED098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24174171E6A69F8007ED098 /* Build configuration list for PBXNativeTarget "DouYuUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +511,7 @@
 				E24174191E6A69F8007ED098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
